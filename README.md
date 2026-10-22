@@ -1,8 +1,6 @@
 # Yasser Latrech — Full-Stack Software Engineer (TypeScript / Next.js / NestJS / Node.js)
 
-[![Email](https://img.shields.io/badge/Email-yasser.lat2002%40hotmail.com-0A66C2?style=flat-square&logo=gmail&logoColor=white)](mailto:yasser.lat2002@hotmail.com)
-[![Location](https://img.shields.io/badge/Location-Casablanca%20%2F%20Rabat%2C%20Morocco%20(Remote%20%26%20Relocation)-10B981?style=flat-square)]()
-[![Live Production](https://img.shields.io/badge/Production%20Platform-man9a.net-F59E0B?style=flat-square)](https://man9a.net)
+**Email:** [yasser.lat2002@hotmail.com](mailto:yasser.lat2002@hotmail.com) · **LinkedIn:** [linkedin.com/in/yasser-latrech-373968333](https://www.linkedin.com/in/yasser-latrech-373968333/) · **Production Platform:** [man9a.net](https://man9a.net) · **Location:** Casablanca / Rabat, Morocco (Open to Remote & Relocation)
 
 > **FR :** Ingénieur Logiciel Full-Stack spécialisé dans la conception et le déploiement d'architectures web haute performance (**TypeScript**, **Next.js App Router SSR/ISR**, **NestJS**, **Node.js**, **PostgreSQL / Prisma**, **MongoDB**, **Redis / BullMQ**, **Docker**). Habitué à livrer des systèmes complets en production supportant des dizaines de milliers d'utilisateurs et de pages indexées avec une maîtrise stricte des coûts d'infrastructure et des Core Web Vitals.
 >
@@ -10,7 +8,7 @@
 
 ---
 
-## 🛠️ Core Technical Stack
+## Core Technical Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -21,7 +19,7 @@
 
 ---
 
-## 🏗️ Featured Production Systems & Case Studies
+## Featured Production Systems & Case Studies
 
 ### 1. Hospidar — Distributed Medical Logistics & Real-Time Ambulance Dispatch Monorepo (`Customer Obsession`)
 - **Stack:** `Turborepo` · `NestJS` · `Next.js (x3 Web Apps)` · `React Native` · `PostgreSQL 16` · `Redis 7` · `WebSockets` · `Docker`
@@ -91,9 +89,10 @@ flowchart TD
 
 ---
 
-## 📫 Contact & Availability
+## Contact & Availability
 
 - **Role Targets:** Full-Stack Software Engineer / Backend Node.js & TypeScript Engineer / Frontend Next.js Engineer (`CDI`, `Remote B2B`, `International Relocation`)
 - **Email:** [yasser.lat2002@hotmail.com](mailto:yasser.lat2002@hotmail.com)
+- **LinkedIn:** [linkedin.com/in/yasser-latrech-373968333](https://www.linkedin.com/in/yasser-latrech-373968333/)
 - **Phone / WhatsApp:** `+212 640-102787`
 - **Live Production System:** [https://man9a.net](https://man9a.net)
