@@ -95,5 +95,5 @@ flowchart TD
 
 - **Role Targets:** Full-Stack Software Engineer / Backend Node.js & TypeScript Engineer / Frontend Next.js Engineer (`CDI`, `Remote B2B`, `International Relocation`)
 - **Email:** [yasser.lat2002@hotmail.com](mailto:yasser.lat2002@hotmail.com)
-- **Phone / WhatsApp:** `+212 699 245 643`
+- **Phone / WhatsApp:** `+212 640-102787`
 - **Live Production System:** [https://man9a.net](https://man9a.net)
