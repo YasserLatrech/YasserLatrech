@@ -1,10 +1,10 @@
-# Yasser Latrech — Full-Stack Software Engineer (TypeScript / Next.js / NestJS / Node.js)
+# Yasser Latrech - Développeur Full-Stack / Full-Stack Developer (TypeScript / React / Next.js / Node.js)
 
-**Email:** [yasser.lat2002@hotmail.com](mailto:yasser.lat2002@hotmail.com) · **LinkedIn:** [linkedin.com/in/yasser-latrech-373968333](https://www.linkedin.com/in/yasser-latrech-373968333/) · **Production Platform:** [man9a.net](https://man9a.net) · **Location:** Casablanca / Rabat, Morocco (Open to Remote & Relocation)
+**Email:** [yasser.lat2002@hotmail.com](mailto:yasser.lat2002@hotmail.com) • **LinkedIn:** [linkedin.com/in/yasser-latrech-373968333](https://www.linkedin.com/in/yasser-latrech-373968333/) • **Production Live:** [man9a.net](https://man9a.net) • **Location:** Casablanca / Rabat, Morocco (Open to Remote & Relocation)
 
-> **FR :** Ingénieur Logiciel Full-Stack spécialisé dans la conception et le déploiement d'architectures web haute performance (**TypeScript**, **Next.js App Router SSR/ISR**, **NestJS**, **Node.js**, **PostgreSQL / Prisma**, **MongoDB**, **Redis / BullMQ**, **Docker**). Habitué à livrer des systèmes complets en production supportant des dizaines de milliers d'utilisateurs et de pages indexées avec une maîtrise stricte des coûts d'infrastructure et des Core Web Vitals.
+> **FR :** Développeur Full-Stack titulaire d'un **DUT en Génie Logiciel** (EST Salé), spécialisé dans le développement d'applications web et mobiles (**TypeScript**, **React**, **Next.js App Router**, **Node.js**, **NestJS**, **PostgreSQL / Prisma**, **MongoDB**, **Redis / BullMQ**, **Docker**).
 >
-> **EN:** Full-Stack Software Engineer specializing in high-concurrency web architectures, distributed background pipelines, and production SaaS platforms (**TypeScript**, **Next.js**, **NestJS**, **Node.js**, **PostgreSQL**, **MongoDB**, **Redis/BullMQ**, **Docker**, **Playwright**).
+> **EN:** Full-Stack Web & Mobile Developer holding a **DUT in Software Engineering (Génie Logiciel — EST Salé)**, building web applications, REST/WebSocket APIs, and database architectures (**TypeScript**, **React**, **Next.js**, **Node.js**, **NestJS**, **PostgreSQL**, **MongoDB**, **Redis**, **Playwright**).
 
 ---
 
@@ -12,87 +12,39 @@
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Frontend & Mobile** | `TypeScript` · `Next.js 14/15 (App Router, SSR/ISR, RSC)` · `React.js` · `React Native` · `Tailwind CSS` · `TanStack Virtual` · `PWA / Service Workers` |
-| **Backend & APIs** | `Node.js` · `NestJS` · `Express.js` · `REST APIs` · `WebSockets (Socket.io)` · `Server-Sent Events (SSE)` · `Sharp Media Streaming` · `JWT / OAuth2 / RBAC` |
-| **Databases & Caching** | `PostgreSQL 16 (PostGIS)` · `Prisma ORM` · `MongoDB (Mongoose)` · `MySQL` · `Redis 7 (L1/L2 Caching & BullMQ Queues)` · `MinIO (S3 Object Storage)` |
-| **DevOps, QA & Automation** | `Docker & Docker Compose` · `Turborepo (pnpm Monorepo)` · `Playwright (E2E Testing & Browser Automation)` · `Linux VPS (Nginx / PM2)` · `Cloudflare CDN` · `ClamAV` · `Git / CI-CD` |
+| **Frontend & Mobile** | TypeScript • JavaScript (ES6+) • React.js • Next.js 14/15 (App Router, SSR/ISR) • React Native • Tailwind CSS • PWA |
+| **Backend & APIs** | Node.js • NestJS • Express.js • PHP / Laravel • REST APIs • WebSockets (Socket.io) • JWT / OAuth2 / RBAC |
+| **Databases & Caching** | PostgreSQL 16 • Prisma ORM • MySQL • MongoDB (Mongoose) • Redis 7 (Cache & BullMQ Queues) • MinIO (S3 Object Storage) |
+| **DevOps, QA & Tools** | Docker & Docker Compose • Turborepo • Playwright (E2E Testing) • Linux VPS (Nginx / PM2) • Cloudflare • ClamAV • Git / GitHub |
 
 ---
 
-## Featured Production Systems & Case Studies
+## Featured Projects
 
-### 1. Hospidar — Distributed Medical Logistics & Real-Time Ambulance Dispatch Monorepo (`Customer Obsession`)
-- **Stack:** `Turborepo` · `NestJS` · `Next.js (x3 Web Apps)` · `React Native` · `PostgreSQL 16` · `Redis 7` · `WebSockets` · `Docker`
-- **Architecture Highlights:**
-  - Engineered a multi-application `Turborepo` monorepo uniting **3 Next.js web portals** (`web-patient`, `web-pro`, `admin-dashboard`), a **React Native** driver app (`ambulance-driver`), and a centralized **NestJS** API backend.
-  - Built real-time geospatial ambulance tracking, dynamic pricing calculation, and asynchronous dispatch state machines powered by **PostgreSQL 16** and **Redis 7**.
+### 1. Hospidar - Healthcare & Real-Time Ambulance Dispatch Platform (Customer Obsession)
+- **Stack:** Turborepo • NestJS • Next.js • React Native • PostgreSQL 16 (Prisma) • Redis 7 • WebSockets • Docker
+- **Overview:**
+  - Developed web portals (web-patient, web-pro, dmin-dashboard in Next.js/React), a React Native mobile app, and backend API modules in NestJS.
+  - Implemented doctor scheduling, patient booking, and real-time ambulance GPS tracking on an interactive map using WebSockets and Redis.
 
-```mermaid
-flowchart LR
-    subgraph Clients["Client Applications (Turborepo)"]
-        WP["Next.js Patient Portal"]
-        WPro["Next.js Healthcare Pro Portal"]
-        Admin["Next.js Admin Dashboard"]
-        RN["React Native Ambulance Driver App"]
-    end
-    subgraph Backend["Core Backend Services"]
-        API["NestJS Modular API (RBAC + JWT)"]
-        WS["Real-Time WebSocket Gateway"]
-    end
-    subgraph Data["Data & Caching Layer"]
-        PG[("PostgreSQL 16")]
-        RD[("Redis 7 Pub/Sub & Cache")]
-    end
-    Clients --> API
-    Clients <--> WS
-    API --> PG
-    API --> RD
-    WS --> RD
-```
+### 2. Avids - Bilingual (FR/AR) Recruitment & Job Board Platform (Customer Obsession)
+- **Stack:** Next.js • Node.js • TypeScript • Prisma ORM • PostgreSQL • MinIO (S3) • ClamAV Antivirus • Playwright E2E
+- **Overview:**
+  - Built a bilingual (FR/AR RTL) recruitment and application tracking platform with Role-Based Access Control (RBAC) and MFA authentication.
+  - Integrated MinIO S3 private storage with ClamAV antivirus scanning for candidate resume uploads, verified by Playwright E2E tests.
 
----
-
-### 2. Avids V2 — Bilingual (FR/AR) Enterprise Recruitment & Secure Document Platform (`Customer Obsession`)
-- **Stack:** `Next.js` · `Node.js` · `TypeScript` · `Prisma ORM` · `PostgreSQL` · `MinIO (S3)` · `ClamAV Antivirus` · `Playwright E2E` · `Docker Compose`
-- **Architecture Highlights:**
-  - Architected a bilingual (`FR`/`AR` RTL) recruitment and application management platform with strict Role-Based Access Control (`RBAC`) and audit logging.
-  - Designed a zero-trust document ingestion pipeline combining **MinIO S3** pre-signed storage with asynchronous **ClamAV** antivirus scanning before exposing candidate CVs to recruiters.
-  - Automated critical user journey verification via **Playwright E2E** test suites inside containerized **Docker Compose** environments.
-
----
-
-### 3. [Man9a.net](https://man9a.net) — High-Concurrency Digital Reading Platform (48,600+ Chapters / 61,000+ Indexed Pages)
-- **Stack:** `Next.js App Router (SSR/ISR)` · `TypeScript` · `Express.js` · `MongoDB` · `Redis / BullMQ` · `Sharp WebP Proxy` · `Cloudflare Edge`
-- **Architecture Highlights:**
-  - Built and scaled a production content platform serving **48,600+ chapters** and **61,000+ Google-indexed URLs** on a lean Linux VPS using multi-tier **L1 RAM + L2 Redis** caching (`< 45ms` API median latency).
-  - Engineered an on-the-fly **Sharp** image optimization and WebP streaming proxy (`/api/stream/image`) combined with a 60fps virtualized mobile reader (`@tanstack/react-virtual`).
-  - Implemented programmatic SEO/GEO (`Schema.org JSON-LD`, dynamic multi-tier XML sitemaps, `IndexNow` instant syndication, and multilingual title deduplication).
-
-```mermaid
-flowchart TD
-    User["Reader Browser / PWA"] --> CF["Cloudflare Edge CDN"]
-    CF --> Next["Next.js 15 App Router (SSR / ISR)"]
-    Next --> API["Node.js / Express TypeScript API"]
-    API --> L1["L1 In-Memory LRU Cache"]
-    L1 --> L2[("L2 Redis 7 Cache & BullMQ")]
-    L2 --> DB[("MongoDB Atlas / Replica Set")]
-    API --> Sharp["Sharp On-The-Fly WebP Streaming Proxy"]
-```
-
----
-
-### 4. Automated E-Commerce Order Confirmation & E2E Stealth Workflow Engine
-- **Stack:** `Node.js` · `TypeScript` · `Baileys WhatsApp WebSockets API` · `Playwright` · `Express.js` · `MySQL / MongoDB`
-- **Architecture Highlights:**
-  - Built an event-driven WhatsApp order verification and customer support automation system (`Baileys API`) eliminating manual confirmation delays for COD e-commerce operations.
-  - Engineered resilient headless browser workflows with `Playwright` for automated QA, visual asset generation, and multi-channel content syndication.
+### 3. [Man9a.net](https://man9a.net) - Digital Reading Web Platform
+- **Stack:** Next.js App Router (SSR/ISR) • TypeScript • Express.js • MongoDB • Redis / BullMQ • Sharp WebP Proxy • Cloudflare
+- **Overview:**
+  - Built and deployed a content platform serving **48,000+ chapters** on a Linux VPS using L1 RAM + L2 Redis caching.
+  - Implemented an on-the-fly Sharp WebP image proxy (/api/stream/image), virtualized mobile reader (@tanstack/react-virtual), and dynamic XML sitemaps / Schema.org JSON-LD.
 
 ---
 
 ## Contact & Availability
 
-- **Role Targets:** Full-Stack Software Engineer / Backend Node.js & TypeScript Engineer / Frontend Next.js Engineer (`CDI`, `Remote B2B`, `International Relocation`)
+- **Role Targets:** Développeur Full-Stack / Full-Stack Developer / Front-End React & Next.js Developer / Back-End Node.js Developer (CDI, Remote, Relocation)
 - **Email:** [yasser.lat2002@hotmail.com](mailto:yasser.lat2002@hotmail.com)
 - **LinkedIn:** [linkedin.com/in/yasser-latrech-373968333](https://www.linkedin.com/in/yasser-latrech-373968333/)
-- **Phone / WhatsApp:** `+212 640-102787`
-- **Live Production System:** [https://man9a.net](https://man9a.net)
+- **Phone / WhatsApp:** +212 640-102787
+- **Live Platform:** [https://man9a.net](https://man9a.net)
